@@ -1,0 +1,21 @@
+package student;
+
+import java.util.Scanner;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+		java.util.Scanner scan = new java.util.Scanner(System.in);
+		
+        Scanner oddevn = new Scanner(System.in);
+        int prdnum;
+        System.out.println("請您輸入數字:");
+        prdnum = oddevn.nextInt();
+
+        if (prdnum % 2 == 0)
+            System.out.println("是偶數");
+        else
+            System.out.println("是奇數");
+	
+		}
+		}
