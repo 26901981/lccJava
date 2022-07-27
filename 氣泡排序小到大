@@ -1,0 +1,20 @@
+package student2;
+
+public class text02 {
+
+	public static void main(String[] args) {
+		
+		int a[]={3,9,4,1,7,6,5,8,2,10};for(int i= 0 ;i<a.length;i++)
+		{ //第一層迴圈 
+			for(int j=0;j<a.length-i-1;j++){ 
+				//第二層迴圈 
+				if(a[j]>a[j+1]){ 
+					//交換位置
+					int tem =a[j]; a[j]=a[j+1]; a[j+1]=tem; 
+					} 
+				}
+			}
+		System.out.println("排好序:");
+		for(int aa:a){
+			System.out.print(aa+" ");}
+				}
